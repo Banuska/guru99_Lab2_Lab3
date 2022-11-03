@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         dryRun = false, //This is to get undefined steps without opening up browser,
         plugin={
                 "pretty", //This is to have more understandable console logs.
-                "rerun:target/rerun.txt",  //This will help us to store failed scenarios in rerun.txt file so that we
+                "rerun:target/rerun.txt",  //This will help us to store failed scenarios in rerun.txt file so that
                 //we can run them from FailedRunner class.
                 //Rerun logic in Failed runner will help us to rerun failed scenarios after running failed scenarios from TestRunner class
                 "html:target/default-cucumber-reports.html",
